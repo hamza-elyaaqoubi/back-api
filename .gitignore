@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+target
+christina.iml
+springboot.iml
+Supprimerait .gitignore
+Supprimerait pom.xml
+Supprimerait src/
