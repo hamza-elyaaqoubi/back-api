@@ -48,29 +48,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.jtwig</groupId>
-      <artifactId>jtwig-spring-boot-starter</artifactId>
-      <version>5.63</version>
-    </dependency>
-    <dependency>
-      <groupId>org.jtwig</groupId>
-      <artifactId>jtwig-spring</artifactId>
-      <version>5.64</version>
-    </dependency>
-    <dependency>
-      <groupId>org.jtwig</groupId>
-      <artifactId>jtwig-web</artifactId>
-      <version>1.60</version>
-    </dependency>
-    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>3.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.jtwig</groupId>
-      <artifactId>jtwig-core</artifactId>
-      <version>5.65</version>
     </dependency>
   </dependencies>
 
