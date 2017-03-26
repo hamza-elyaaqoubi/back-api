@@ -19,6 +19,7 @@ public class ApiVersion {
         Version version = new Version();
         version.setVersion(backApiProperties.getVersion());
         version.setArtifactId(backApiProperties.getArtifactId());
+        version.setGroupId(backApiProperties.getGroupId());
         return version;
     }
 }
