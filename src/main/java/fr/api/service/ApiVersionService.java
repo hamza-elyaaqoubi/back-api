@@ -1,21 +1,17 @@
-package fr.api.controller;
+package fr.api.service;
 
 import fr.api.bean.Version;
 import fr.api.config.BackApiProperties;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Service;
 
-@RequestMapping("/back-api")
-@RestController
-public class ApiVersion {
+@Service
+public class ApiVersionService {
 
     @Autowired
     private BackApiProperties backApiProperties;
 
-    @GetMapping(value = "/version", produces = "application/json")
-    public Version getHomePage() {
+    public Version getVersion() {
         Version version = new Version();
         version.setVersion(backApiProperties.getVersion());
         version.setArtifactId(backApiProperties.getArtifactId());
