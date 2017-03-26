@@ -1,6 +1,6 @@
-package fr.ws.service;
+package fr.api.service;
 
-import fr.ws.bean.Response;
+import fr.api.bean.Response;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,11 +1,8 @@
-package fr.ws.bean;
+package fr.api.bean;
 
 public class Response {
 
     private String name;
-
-    public Response() {
-    }
 
     public Response(String name) {
         this.name = name;
