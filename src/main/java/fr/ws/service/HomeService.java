@@ -4,9 +4,9 @@ import fr.ws.bean.Response;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ChristinaService {
+public class HomeService {
 
     public Response getResponse() {
-        return new Response(1, "TODO");
+        return new Response("Test API");
     }
 }
